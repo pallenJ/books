@@ -15,3 +15,6 @@
      |  2          | 7       | 4.1
      | 1.4         | 6       | 4
      | 1.3         | 1.4~1.5 | 3
+- Connection.getMetaData() 메서드를 호출한 다음 커넥션을 닫지 않았을 때 메모리 누수가 발생하는 문제 등 주요 버그가 Commons DBCP 1.4.1에서 패치됐지만 몇 년째 Commons DBCP 1.4.1의 정식 배포는 나오지 않고 있음.
+- Commons DBCP 2에는 Commons DBCP 1.4.1의 패치가 반영됐고 Commons DBCP 1.4.x보다는 비교적 활발히 개발이 이어지고 있음. jdk 7 버전부터 사용가능.
+  > DBCP 1.4.1의 누수 버그에 대한 내용이 필요할시 https://issues.apache.org/jira/browse/DBCP-330 
