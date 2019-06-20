@@ -51,11 +51,11 @@
 - 주요 클래스
 
   | 클래스| 경로|기능|
-|---|---|---|
-|ConsoleAppender| org.apache.log4j.ConsoleAppender| 콘솔에 로그 메시지 출력|
-| FileAppender| org.apache.log4j.FileAppender| 파일에 로그 메시지 기록|
-| RollingFileAppender| org.apache.log4j.rolling.RollingFileAppender| 파일 크기가 일정 수준 이상이 되면 기존 파일을 백업파일로 바꾸고 처음부터 기록|
-| DailyRollingFileAppender| org.apache.log4j.DailyRollingFileAppender| 일정 기간  단위로 로그 파일을 생성하고 기록|
-| JDBCAppender| org.apache.log4j.jdbc.JDBCAppender| DB에 로그를 출력. 하위에 Driver, URL, User, Password, Sql과 같은 parameter를 정의할 수 있음|
-| SMTPAppender|org.apache.log4j.net.SMTPAppender| 로그 메시지를 이메일로 전송|
-| NTEventAppender|org.apache.log4j.nt.NTEventLogAppender| 윈도우 시스템 이벤트 로그로 메시지 전송|
+  |---|---|---| 
+  |ConsoleAppender| org.apache.log4j.ConsoleAppender| 콘솔에 로그 메시지 출력|
+  | FileAppender| org.apache.log4j.FileAppender| 파일에 로그 메시지 기록|
+  | RollingFileAppender| org.apache.log4j.rolling.RollingFileAppender| 파일 크기가 일정 수준 이상이 되면 기존 파일을 백업파일로 바꾸고 처음부터 기록|
+  | DailyRollingFileAppender| org.apache.log4j.DailyRollingFileAppender| 일정 기간  단위로 로그 파일을 생성하고 기록|
+  | JDBCAppender| org.apache.log4j.jdbc.JDBCAppender| DB에 로그를 출력. 하위에 Driver, URL, User, Password, Sql과 같은 parameter를 정의할 수 있음|
+  | SMTPAppender|org.apache.log4j.net.SMTPAppender| 로그 메시지를 이메일로 전송|
+  | NTEventAppender|org.apache.log4j.nt.NTEventLogAppender| 윈도우 시스템 이벤트 로그로 메시지 전송|
