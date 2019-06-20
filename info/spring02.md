@@ -2,7 +2,7 @@
 
 1. [Lombok](#Lombok)
 1. [JDBC](#JDBC)
-1. [JDBC&MySQL](#JDBC&MySQL)
+1. [JDBC&MySQL](#JDBCMySQL)
 
 ### Lombok
 
