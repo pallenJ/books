@@ -3,12 +3,88 @@
 ## Lombok
 
 - 자바 컴파일 시점에서 특정 어노테이션으로 해당 코드를 추가할 수 있는 라이브러리. 이는 코드의 간결화로 가독 성 및 유지 보수에 많은 도움이 됨.
+- 설치 방법
+  + 롬복 공식 홈페이지에서 lombok.jar 다운.
+  + 더블 클릭후 사용하는 이클립스 jee 혹은 sts.exe에 적용.
+  + 필요한 프로젝트의 pom.xml에 롬복 dependency 추가후 Maven 업데이트.(Gradle의 경우 약간 다름)
+  + 이클립스나 sts의 경로에 한글이 포함될경우 프로그램 에러가 나니 주의.
 - 자주 사용되는 어노테이션
   + @Getter, @Setter, @ToString : 해당 어노테이션과 동일한 이름의 메소드 자동 생성. 필드 변수위에 사용시 해당 변수에 대해서만 메소드 생성.
-  + @NoArgsConstructor : 파라미터가 없는 기본 생성자 생성
-  + @AllArgsConstructor : 모든 필드값을 파라미터로 받는 생성자 생성
-  + @EqualsAndHashCode : equals 와 hashCode 메소드 자동생성
-  + @Data :  @ToString, @EqualsAndHashCode, @Getter, @Setter, @RequiredArgsConstructor 등 VO에 쓰이는 어노테이션을 자동 수행
+  + @NoArgsConstructor : 파라미터가 없는 기본 생성자 생성.
+  + @AllArgsConstructor : 모든 필드값을 파라미터로 받는 생성자 생성.
+  + @EqualsAndHashCode : equals 와 hashCode 메소드 자동생성.
+  + @Data :  @ToString, @EqualsAndHashCode, @Getter, @Setter, @RequiredArgsConstructor 등 VO에 쓰이는 어노테이션을 자동 수행.
   
 - 주의사항
   + @Data는 강력한 어노테이션이나 남발시 보안적인 문제가 생길 수 있음.
+
+## JDBC
+
+ - *Java DataBase Connectivity*의 약자로, 자바에서 DB에 접근 할 수 있게 해주는 자바 API. 
+ - DB에서 자료를 쿼리 혹은 업데이트 하는 법을 제공
+ - 역사
+  + 썬 마이크로시스템즈는 1997년 2월 19일 JDBC를 JDK 1.1의 일부로 출시. 그 뒤로 이제까지 자바 SE의 일부로 사용됨.
+  + JDBC 클래스는 자바 패키지 java.sql과 javax.sql에 포함.
+  + 버전 3.1을 기점으로 JDBC는 자바 커뮤니티 프로세스를 통해 개발되고 있음. JSR 54는 JDBC 3.0을 규정(J2SE 1.4에 포함)하고, JSR 114는 JDBC Rowset addition을 규정하며, JSR 221은 JDBC 4.0의 사양(자바 SE 6에 포함됨).
+  + JDBC 4.1은 JSR 221의 유지보수판 1에 규정되어 있고[3], 자바 SE 7에 포함.
+  + 최신 버전은 JDBC 4.2는 JSR 221의 유지보수판 2에 규정되어 있고[5], 자바 SE 8에 포함.
+ - JDBC Driver : JDBC 드라이버들은 자바 프로그램의 요청을 DBMS가 이해할 수 있는 프로토콜로 변환해주는 클라이언트 사이드 어댑터. (서버가 아닌 클라이언트 머신에 설치)
+
+## JDBC&MySQL
+ 
+ - JDBC COnnectorJ 로 연결(여기선 Spring 프로젝트의 Maven환경에서 pom.xml 에 해당 dependency를 추가하였다고 가정)
+ - 다음과 같은 소스코드 작성
+ 
+ ```java
+ 
+import java.sql.Connection;
+import java.sql.DriverManager;
+import java.sql.ResultSet;
+import java.sql.SQLException;
+import java.sql.Statement;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import lombok.extern.log4j.Log4j;
+
+
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration({
+	"file:src/main/webapp/WEB-INF/spring/root-conext.xml"
+})
+@Log4j//3개의 어노테이션은 테스트를 위한 것
+public class JDBCTest {
+
+	@Test
+	public void test() {
+		
+		  Connection con = null;
+		  
+		  try { 
+		  con = DriverManager.getConnection("jdbc:mysql://localhost","root","pasword");//권한이 있으면 root외의 유저도 가능
+		  Statement st = null; ResultSet rs = null;
+		  
+		  st = con.createStatement(); rs = st.executeQuery("SHOW DATABASES");//모든 데이터 베이스 목록을 출력
+		  
+		  if (st.execute("SHOW DATABASES")) { 
+			  rs = st.getResultSet(); 
+        }
+		  
+		  while (rs.next()) { 
+			  log.info(rs.getNString(1)); }
+		  } catch (SQLException e) { 
+			 log.error("SQLException: " + e.getMessage());
+		   log.error("SQLState: " + e.getSQLState()); }
+	}
+	
+}
+
+ 
+ ```
+ - Junit4 Test가 아닌 Java 환경의 경우 https://ra2kstar.tistory.com/134 참조
+ - 실제 DB 연결을 쓸때는 주로 mybatis 사용.
+ 
+ 
+ 
