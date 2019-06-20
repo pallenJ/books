@@ -50,7 +50,7 @@
  
 - 주요 클래스
 
-| 클래스| 경로|기능|
+  | 클래스| 경로|기능|
 |---|---|---|
 |ConsoleAppender| org.apache.log4j.ConsoleAppender| 콘솔에 로그 메시지 출력|
 | FileAppender| org.apache.log4j.FileAppender| 파일에 로그 메시지 기록|
