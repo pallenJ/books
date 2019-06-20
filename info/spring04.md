@@ -27,7 +27,7 @@
 - pattern option
     일반적으로 PatternLayout을 사용하는 것이 디버깅에 가장 적합
   |패턴|설명|
-  |---|-----|
+  |---|---|
  |%p|debug, info, warn, error, fatal 등의 priority 출력|
  |%m|로그내용 출력|
  |%d|로깅 이벤트가 발생한 시간을 출력|
