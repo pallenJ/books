@@ -24,6 +24,7 @@
   | INFO |로그인, 상태변경과 같은 정보성 메시지를 나타냄|
   | DEBUG|개발시 디버그 용도로 사용한 메시지를 나타냄|
   | TRACE|og4j1.2.12에서 신규 추가된 레벨로서, DEBUG 레벨이 너무 광범위한 것을 해결하기 위해서 좀 더 상세한 상태를 나타냄|
+
 - pattern option
     +일반적으로 PatternLayout을 사용하는 것이 디버깅에 가장 적합
   
@@ -47,7 +48,14 @@
   | %x| 로깅이 발생한 thread와 관련된 NDC(nested diagnostic context) 출력|
   | %X| 로깅이 발생한 thread와 관련된 MDC(mapped diagnostic context) 출력|
  
+- 주요 클래스
 
-
-
-## form
+| 클래스| 경로|기능|
+|---|---|---|
+|ConsoleAppender| org.apache.log4j.ConsoleAppender| 콘솔에 로그 메시지 출력|
+| FileAppender| org.apache.log4j.FileAppender| 파일에 로그 메시지 기록|
+| RollingFileAppender| org.apache.log4j.rolling.RollingFileAppender| 파일 크기가 일정 수준 이상이 되면 기존 파일을 백업파일로 바꾸고 처음부터 기록|
+| DailyRollingFileAppender| org.apache.log4j.DailyRollingFileAppender| 일정 기간  단위로 로그 파일을 생성하고 기록|
+| JDBCAppender| org.apache.log4j.jdbc.JDBCAppender| DB에 로그를 출력. 하위에 Driver, URL, User, Password, Sql과 같은 parameter를 정의할 수 있음|
+| SMTPAppender|| 로그 메시지를 이메일로 전송|
+| NTEventAppender|| 윈도우 시스템 이벤트 로그로 메시지 전송|
