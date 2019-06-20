@@ -26,3 +26,12 @@
   1. getConnection() 으로 Connection을 받아온다 
   2. Connection에 PSMT나 STMT를 사용해서 쿼리를 실행(되도록 PSMT를 사용. 캐싱을 하므로 동일 쿼리 수행 시 성능이 훨씬 좋음.)
   3. 해당 connection을 free 해줘야 한다.  (Pooling 에 중요함) 
+>예제는 https://hsp1116.tistory.com/8 참고
+
+### HikariCP
+
+- hikariCP는 스프링 부트 2.0부터 default JDBC connection pool. 
+- hikariCP github에 따르면 가보면 빠르고, 가볍고, 신뢰할 수 있다고 설명한다.
+- maven 에 추가후 mybatis와 병행하여 사용 가능
+- 성능에 대한 자세한 내용은 https://jeong-pro.tistory.com/162 참고
+
