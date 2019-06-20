@@ -25,25 +25,28 @@
   | DEBUG|개발시 디버그 용도로 사용한 메시지를 나타냄|
   | TRACE|og4j1.2.12에서 신규 추가된 레벨로서, DEBUG 레벨이 너무 광범위한 것을 해결하기 위해서 좀 더 상세한 상태를 나타냄|
 - pattern option
-    일반적으로 PatternLayout을 사용하는 것이 디버깅에 가장 적합
+    +일반적으로 PatternLayout을 사용하는 것이 디버깅에 가장 적합
+  
+  
+  
   |패턴|설명|
   |---|---|
- |%p|debug, info, warn, error, fatal 등의 priority 출력|
- |%m|로그내용 출력|
- |%d|로깅 이벤트가 발생한 시간을 출력|
- |%t| 로그이벤트가 발생된 쓰레드의 이름 출력|
- |%F|로깅이 발생한 프로그램 파일명 출력|
- |%l|로깅이 발생한 caller의 정보 출력|
- |%L|로깅이 발생한 caller의 라인수 출력|
- |%M|로깅이 발생한 method 이름 출력|
- |%|% 표시 출력|
- |%n|플랫폼 종속적인 개행문자 출력|
- |%c|카테고리 출력|
- |%C|클래스명 출력|
- |%r|어플리케이션 시작 이후 부터 로깅이 발생한 시점의 시간(milliseconds) 출력|
- |%x|로깅이 발생한 thread와 관련된 NDC(nested diagnostic context) 출력|
- |%X|로깅이 발생한 thread와 관련된 MDC(mapped diagnostic context) 출력|
-
+  | %p| debug, info, warn, error, fatal 등의 priority 출력|
+  | %m| 로그내용 출력|
+  | %d| 로깅 이벤트가 발생한 시간을 출력|
+  | %t| 로그이벤트가 발생된 쓰레드의 이름 출력|
+  | %F| 로깅이 발생한 프로그램 파일명 출력|
+  | %l| 로깅이 발생한 caller의 정보 출력|
+  | %L| 로깅이 발생한 caller의 라인수 출력|
+  | %M| 로깅이 발생한 method 이름 출력|
+  | % | % 표시 출력|
+  | %n| 플랫폼 종속적인 개행문자 출력|
+  | %c| 카테고리 출력|
+  | %C| 클래스명 출력|
+  | %r| 어플리케이션 시작 이후 부터 로깅이 발생한 시점의 시간(milliseconds) 출력|
+  | %x| 로깅이 발생한 thread와 관련된 NDC(nested diagnostic context) 출력|
+  | %X| 로깅이 발생한 thread와 관련된 MDC(mapped diagnostic context) 출력|
+ 
 
 
 
