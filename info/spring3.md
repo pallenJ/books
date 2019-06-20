@@ -20,3 +20,9 @@
   > DBCP 1.4.1의 누수 버그에 대한 내용이 필요할시 https://issues.apache.org/jira/browse/DBCP-330 참고
   
   
+### DBCP 구현
+
+- 앞선 Connection을 응용하여 구현. 아래의 과정을 통해 구현.
+  1. getConnection() 으로 Connection을 받아온다 
+  2. Connection에 PSMT나 STMT를 사용해서 쿼리를 실행(되도록 PSMT를 사용. 캐싱을 하므로 동일 쿼리 수행 시 성능이 훨씬 좋음.)
+  3. 해당 connection을 free 해줘야 한다.  (Pooling 에 중요함) 
