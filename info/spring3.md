@@ -10,7 +10,8 @@
   + 뒤집어 말하면 적절치 못하게 값을 설정하여 어플리케이션의 값을 잘못 사용시 커넥션 풀이 APP의 병목지점이 될 수 도 있음
 - 버전 선택은 jdk 버전에 따라 사용. 주요 버전과 그에 해당하는 jdk, jdbc 버전은 아래와 같음
 
-First Header | Second Header
------------- | -------------
-Content from cell 1 | Content from cell 2
-Content in the first column | Content in the second column
+Commons DBCP | JDK | JDBC
+------------ | ----| -----
+Commons DBCP 2 | JDK7 | JDBC4.1
+Commons DBCP 1.4 | JDK6 | JDBC4
+Commons DBCP 1.3 | JDK1.4~1.5 | JDBC3
