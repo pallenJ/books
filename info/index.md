@@ -3,5 +3,5 @@
   + [문자 인코딩](./spring01.md#문자-인코딩)
   + [문자 집합(Character Set)과 인코딩(Encoding)](./spring01.md#문자-집합과-인코딩)
 - [2](./spring02.md)
-- [3](./spring02.md)
+- [3](./spring03.md)
 - [4](./spring04.md)
