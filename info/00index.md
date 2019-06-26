@@ -29,3 +29,5 @@
 - 7
   + [7-1](./07_1.md)
     * [java 웹 name convention](./07_1.md#java)
+  + [7-2](./07_2.md)
+    * [Spring name convention](./07_2.md#spring)
