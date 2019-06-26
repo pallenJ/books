@@ -26,5 +26,6 @@
   + [Innodb,MyIsam](./06.md#InnodbMyIsam)
   + [sequence, auto increment](./06.md#sequence-auto-increment)
 
-- [7](./07_1.md)
-  + [java 웹 name convention](./07_1.md#java)
+- 7
+  + [7-1](./07_2.md)
+    * [java 웹 name convention](./07_1.md#java)
