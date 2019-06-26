@@ -15,6 +15,13 @@
 
 - [4](./04.md)
   + [log4j](./04.md#log4j)
+
 - [5](./05.md)
   + [form태그의 enctype 속성](./05.md#form태그의-enctype-속성)
   + [어노테이션](./05.md#어노테이션)
+
+- [6](./06.md)
+  + [mysql utf-8 설정](./06.md#mysql-utf8-설정)
+  + [mysql 사용자](./06.md#mysql-사용자)
+  + [Innodb,MyIsam](./06.md#InnodbMyIsam)
+  + [sequence, auto increment](./06.md#sequence-auto-increment)
