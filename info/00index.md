@@ -30,4 +30,8 @@
   + [7-1](./07_1.md)
     * [java 웹 name convention](./07_1.md#java)
   + [7-2](./07_2.md)
-    * [Spring name convention](./07_2.md#spring)
+    * [Spring name convention](./07_2.md#spring) 
+    * [html/js name convention](./07_2.md#htmljs)
+    * [JSP name convention](./07_2.md#JSP)
+
+   참조 : [행정표준 용어](https://www.data.go.kr/information/PDS_0000000000000299/recsroom.do)
