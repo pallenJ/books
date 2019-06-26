@@ -27,3 +27,4 @@
   + [sequence, auto increment](./06.md#sequence-auto-increment)
 
 - [7](./07.md)
+  + [java 웹 name convention](./07.md#java)
