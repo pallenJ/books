@@ -24,7 +24,7 @@
   + [mysql utf-8 설정](./06.md#mysql-utf8-설정)
   + [mysql 사용자](./06.md#mysql-사용자)
   + [Innodb,MyIsam](./06.md#InnodbMyIsam)
-  + [sequence, auto increment](./06.md#sequence-auto-increment)
+  + [sequence, auto increment](./06.md#sequence-auto-increment-limit)
 
 - 7
   + [7-1](./07_1.md)
