@@ -42,5 +42,7 @@
  - [9](./09.md)
     + [SQL 인젝션](./09.md#SQL-Injection)
  - [10](./10.md)
+    + [RESTFul](#RESTFul)
+    + [Ajax](#Ajax)
  - [11](./11.md)
  - [12](./12.md)
