@@ -48,6 +48,11 @@
     + [JSON](./11.md#JSON)
     + [GSON](./11.md#GSON)
  - [12](./12.md)
+    + [Cookie와 세션](#Cookie와-세션)
+    + [Authentication, Authorization](#Authentication-Authorization)
+    + [세션을 이용한 로그인/로그아웃 처리](#세션을-이용한-로그인로그아웃-처리)
+    + [MySQL을 이용한 세션처리](#MySQL을-이용한-세션처리)
+
  - [13](./13.md)
  - [14](./14.md)
  - [15](./15.md)
