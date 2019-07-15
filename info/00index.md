@@ -54,6 +54,9 @@
     + [MySQL을 이용한 세션처리](./12.md#MySQL을-이용한-세션처리)
 
  - [13](./13.md)
+    + [url 인코딩 디코딩](./13.md#URL-Encode---Decode)
+    + [CSRF](./13.md#CSRF) 
+    + [XSS](./13.md#XSS)
  - [14](./14.md)
      + [MySQL에서의 날짜](./14.md#MySQL에서의-날짜)
  - [15](./15.md)
