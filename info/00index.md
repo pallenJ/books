@@ -60,7 +60,7 @@
  - [14](./14.md)
      + [MySQL에서의 날짜](./14.md#MySQL에서의-날짜)
  - [15](./15.md)
-     + [개념](./15.md#개념)
+     + [JPA 개념](./15.md#개념)
      + [JPA Repository](./15.md#JPA-Repository)
  - 16
    1. [PHP 기본](./16_1.md)
