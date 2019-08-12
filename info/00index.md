@@ -84,9 +84,9 @@
 - [18](./18.md)
 
     + [RESTful이란?](18.md#restful이란)
-	  + [REST의 특징](18.md#rest의-특징)
-	  + [REST 구성](18.md#rest-구성)
-	  + [REST API 디자인 가이드](18.md#rest-api-디자인-가이드)
+    + [REST의 특징](18.md#rest의-특징)
+    + [REST 구성](18.md#rest-구성)
+    + [REST API 디자인 가이드](18.md#rest-api-디자인-가이드)
 
 - [19](./19.md)
 
