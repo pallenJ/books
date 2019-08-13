@@ -62,7 +62,7 @@
  - [15](./15.md)
      + [JPA 개념](./15.md#개념)
      + [JPA Repository](./15.md#JPA-Repository)
- - 16. PHP
+ - [16]. PHP
    + [16-1]. (./16_1.md). [PHP 기본](./16_1.md#16-1-php-기본)
       * [PHP 코드 영역](./16_1.md#PHP-코드-영역)
       * [PHP 기본문법](./16_1.md#PHP-기본문법)
