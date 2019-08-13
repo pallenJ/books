@@ -94,7 +94,7 @@
    + [특징](./19.md#특징)
    + [어노테이션 요약](./19.md#spring-annotation-요약)
    
-- [20](./20.md)
+- [20](./20.md) [Spring Controller 관련 어노테이션](./20.md#controller-관련-어노테이션)
 
    + [RequestBody](./20.md#requestbody)
    + [ResponseBody](./20.md#responsebody)
