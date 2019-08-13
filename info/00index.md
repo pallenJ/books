@@ -62,12 +62,12 @@
  - [15](./15.md)
      + [JPA 개념](./15.md#개념)
      + [JPA Repository](./15.md#JPA-Repository)
- - 16 PHP
-   + [16-1](./16_1.md). [PHP 기본](./16_1.md#16-1-php-기본)
+ - 16. PHP
+   + [16-1]. (./16_1.md). [PHP 기본](./16_1.md#16-1-php-기본)
       * [PHP 코드 영역](./16_1.md#PHP-코드-영역)
       * [PHP 기본문법](./16_1.md#PHP-기본문법)
       * [변수](./16_1.md#변수)
-   + [16-2](./16_2.md) [PHP 내장함수](./16_2.md#16-2-php-내장함수)
+   + [16-2]. (./16_2.md) [PHP 내장함수](./16_2.md#16-2-php-내장함수)
       * [날짜 및 시간 관련](./16_2.md#날짜-및-시간-관련)
       * [문자열 처리함수](./16_2.md#문자열-처리함수)
       * [파일 관련](./16_2.md#파일-관련)
@@ -75,26 +75,26 @@
       * [URL 관련](./16_2.md#URL-관련)
       * [변수 및 계산관련](./16_2.md#변수-및-계산관련)
       * [기타](./16_2.md#기타)
-- [17](./17.md) [P3P](./17.md#17-p3p)
+- [17](./17.md). [P3P](./17.md#17-p3p)
 
     + [P3P 의 개념](./17.md#p3p-의-개념)
     + [MSIE 6에서의 P3P 구현](./17.md#msie-6에서의-p3p-구현)
     + [P3P의 압축정책 SPEC](./17.md#p3p의-압축정책-spec)
 
-- [18](./18.md)	[RESTful](18.md#18-restful)
+- [18](./18.md). [RESTful](18.md#18-restful)
 
     + [RESTful이란?](18.md#restful이란)
     + [REST의 특징](18.md#rest의-특징)
     + [REST 구성](18.md#rest-구성)
     + [REST API 디자인 가이드](18.md#rest-api-디자인-가이드)
 
-- [19](./19.md) [Spring Boot](19.md#19-spring-boot)
+- [19](./19.md). [Spring Boot](19.md#19-spring-boot)
 
    + [Spring Boot?](./19.md#spring-boot-1)
    + [특징](./19.md#특징)
    + [어노테이션 요약](./19.md#spring-annotation-요약)
    
-- [20](./20.md) [Spring Controller 관련 어노테이션](./20.md#controller-관련-어노테이션)
+- [20](./20.md). [Spring Controller 관련 어노테이션](./20.md#controller-관련-어노테이션)
 
    + [RequestBody](./20.md#requestbody)
    + [ResponseBody](./20.md#responsebody)
@@ -107,7 +107,7 @@
    + [Autowired](./20.md#autowired)
    + [Inject](./20.md#inject)
    
-- [21](./21.md) [Redis](./21.md#21-redis)   
+- [21](./21.md). [Redis](./21.md#21-redis)   
 	+ [개요](./21.md#개요)
 	+ [NoSQL](./21.md#nosql)
 	+ [Redis 상세](./21.md#redis-상세)
