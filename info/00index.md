@@ -116,9 +116,9 @@
 
 - [22](./22.md) [Spring Cache](./22.md#22-spring-cache)
 
-	+ [Cache](#cache)
-	+ [Spring Cache](#spring-cache)
-	+ [Spring Cache 사용법](#spring-cache-사용방법)
-	+ [Cache 어노테이션 상세](#cache-어노테이션-상세)
-	+ [Spring Cache ConcurrentMapCacheManager 적용](#spring-cache-concurrentmapcachemanager-적용)
-	+ [Spring Cache Ehcache 적용](#spring-cache-ehcache-적용)
+	+ [Cache](./22.md#cache)
+	+ [Spring Cache](./22.md#spring-cache)
+	+ [Spring Cache 사용법](./22.md#spring-cache-사용방법)
+	+ [Cache 어노테이션 상세](./22.md#cache-어노테이션-상세)
+	+ [Spring Cache ConcurrentMapCacheManager 적용](./22.md#spring-cache-concurrentmapcachemanager-적용)
+	+ [Spring Cache Ehcache 적용](./22.md#spring-cache-ehcache-적용)
