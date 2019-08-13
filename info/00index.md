@@ -26,7 +26,7 @@
   + [Innodb,MyIsam](./06.md#InnodbMyIsam)
   + [sequence, auto increment, limit](./06.md#sequence-auto-increment-limit)
 
-- 7. Convention
+- 7\. Convention
   + [7-1](./07_1.md)
     * [java 웹 name convention](./07_1.md#java)
   + [7-2](./07_2.md)
@@ -57,12 +57,12 @@
     + [url 인코딩 디코딩](./13.md#URL-Encode---Decode)
     + [CSRF](./13.md#CSRF) 
     + [XSS](./13.md#XSS)
- - [14](./14.md)
+ - [14](./14.md). [MySQL에서의 날짜](./14.md#14-mysql에서의-날짜)
      + [MySQL에서의 날짜](./14.md#MySQL에서의-날짜)
- - [15](./15.md)
+ - [15](./15.md). [JPA](./15.md#15-jpa)
      + [JPA 개념](./15.md#개념)
      + [JPA Repository](./15.md#JPA-Repository)
- - 16. PHP
+ - 16\. PHP
    + [16-1](./16_1.md). [PHP 기본](./16_1.md#16-1-php-기본)
       * [PHP 코드 영역](./16_1.md#PHP-코드-영역)
       * [PHP 기본문법](./16_1.md#PHP-기본문법)
